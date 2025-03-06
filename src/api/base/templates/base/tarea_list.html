@@ -1,0 +1,21 @@
+<h1>Lista de Pendientes</h1>
+<a href="{% url 'crear-tarea' %}">Nueva Tarea</a>
+<br><br>
+<table>
+    <tr>
+        <th>Tareas</th>
+        <th></th>
+    </tr>
+    {% comment %}
+    {% for tarea in object_list %}
+    {% endcomment %}
+    {% for tarea in tareas %}
+    <tr>
+        <td>{{tarea.titulo}}</td>
+        <td><a href="{% url 'tarea' tarea.id %}">Ver</a></td>
+    </tr>
+    {% empty %}
+    <tr>No hay elementos</tr>
+
+    {% endfor %}
+</table>
