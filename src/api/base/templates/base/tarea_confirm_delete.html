@@ -1,7 +1,6 @@
-<h1>Nueva Tarea</h1>
 <a href="{% url 'tareas' %}">Volver</a>
 <form method="post" action="">
     {% csrf_token %}
-    {{form.as_p}}
-    <input type="submit" value="Enviar"/>
+    <p>Vas a eliminar la tarea "{{tarea}}"</p>
+    <input type="submit" value="Eliminar" />
 </form>

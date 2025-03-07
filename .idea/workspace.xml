@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e25be885-c1ba-47eb-9c96-8659bf610132" name="Changes" comment="url configuration">
-      <change afterPath="$PROJECT_DIR$/src/api/base/templates/base/tarea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/base/templates/base/tarea_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/base/templates/base/tarea_list.html" afterDir="false" />
+    <list default="true" id="e25be885-c1ba-47eb-9c96-8659bf610132" name="Changes" comment="tarea crud views added">
+      <change afterPath="$PROJECT_DIR$/src/api/base/templates/base/tarea_confirm_delete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/base/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/base/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/base/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/base/templates/base/tarea_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/base/templates/base/tarea_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/base/templates/base/tarea_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/base/templates/base/tarea_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/base/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/base/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/db.sqlite3" afterDir="false" />
@@ -100,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741190115506</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tarea crud views added">
+      <option name="closed" value="true" />
+      <created>1741271900637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741271900637</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="url configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="url configuration" />
+    <MESSAGE value="tarea crud views added" />
+    <option name="LAST_COMMIT_MESSAGE" value="tarea crud views added" />
   </component>
 </project>
